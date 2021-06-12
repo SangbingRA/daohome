@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone -b  main https://github.com/kyleqqq/daohome.git ~/scripts
+          git clone -b  main https://github.com/l499477004/daohome.git ~/scripts
       - name: Use Node.js 16.x
         uses: actions/setup-node@v1
         with:
